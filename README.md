@@ -102,7 +102,8 @@ EDK II のディレクトリに MikanOS ブートローダーのディレクト�
 
     $ ls MikanLoaderPkg/Main.c
 
-次に，`edksetup.sh` を読み込むことで EDK II のビルドに必要な環境変数を設定します。
+次に，`edksetup.sh` を読み込むことで EDK II のビルドに必要な環境変数を設定します。  
+> 2回目のセットアップの場合は、1回目に作成した環境変数を削除する必要があります。環境変数を消す作業は、かなり危険な作業です。必要な環境変数を消してしまわないように、気を付けて作業をしてください。[参考](https://github.com/uchan-nos/os-from-zero/wiki/phys_ken-Home)
 
     $ source edksetup.sh
 
